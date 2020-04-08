@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ahmadarif/adonis-swagger"
+    "url": "https://github.com/danielheramb/adonis-swagger"
   },
   "devDependencies": {
     "@adonisjs/ace": "^5.0.0",
