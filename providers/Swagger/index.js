@@ -18,6 +18,7 @@ class SwaggerProvider extends ServiceProvider {
   }
 
   _registerCommands () {
+    this.app.bind('Adonis/Commands/SwaggerCreateConfig', () => require('../commands/SwaggerCreateConfig'))
     //this.app.bind('Adonis/Commands/SwaggerExport', () => require('../commands/SwaggerExport'))
     //this.app.bind('Adonis/Commands/SwaggerExportDocs', () => require('../commands/SwaggerExportDocs'))
     //this.app.bind('Adonis/Commands/SwaggerRemove', () => require('../commands/SwaggerRemove'))
